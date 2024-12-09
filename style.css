@@ -1,0 +1,89 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-image: url(https://scontent-lhr8-2.xx.fbcdn.net/v/t1.6435-9/109130884_10157203002666630_4782619851208076655_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wVU37f4h19oQ7kNvgFB5HLj&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=Ab-QsARPYyB_rPpbcVHiB_h&oh=00_AYDEdMHVdoJnEbs8qAtTFdovhZRmUf1eh4mBOip3wNZCQw&oe=677E8392);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Chivo";
+  font-weight: 500;
+  text-align: bottom;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: "Overpass";
+  color: #000000;
+  font-weight: 900;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+h2, h3 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 30px;
+  text-align: left;
+  text-decoration: dotted;
+}
+
+.card {
+  background-color: rgba(121, 152, 103, 0.75);
+  padding: 10px;
+  width: 1000px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  box-shadow: 0px 15px 30px rgba(50,50,93,0.1);
+}
+
+.round-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-position: center;
+}
+
+#dl-link:hover {
+  background-color: #000000;
+}
+
+#dl-link {
+  position: relative;
+  text-align: center;
+  padding: 1px 20px;
+  height: 10px;
+  background-color: #007bff;
+  color: #B8001F;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#darts {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
